@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app">
 
 
     <!-- 路由的出口 -->
@@ -16,6 +16,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.app {
+  height: 100%;
+}
 </style>
